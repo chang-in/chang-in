@@ -13,67 +13,25 @@
 
 ## 🏆 Featured Projects
 
-### 1️⃣ 와이즈픽 - 합리적 소비 분석 플랫폼
+### 와이즈픽 - 합리적 소비 분석 플랫폼 - 개발 진행중...
 
 > **[🔗 서비스 바로가기](https://www.wise-pick.co.kr)** | 한국소비자원 공공데이터 기반 제품 비교 서비스
 
-**Tech Stack:** `Django` `PostgreSQL (JSONB)` `Docker Compose` `Nginx`
+3계층 아키텍처(3-Tier Architecture), 지속적 통합, 배포 자동화 구현.
+
+**Tech Stack:** `Django` `Next.js` `PostgreSQL` `Docker Compose` `Nginx`
 
 **핵심 구현 내용:**
-
-- 📊 **1,200+ 개 소비자 리포트 데이터 수집 및 정제**
-- 🔧 **PostgreSQL JSONB 활용**, 리포트별 상이한 필드 구조 대응
-  - 마이그레이션 없이 신규 리포트 타입 추가 가능 (개발 시간 70% 단축)
-- ⚡ **검색 API 평균 응답속도 200ms** 이하 달성 (JSONB 인덱싱 활용)
-- 🎨 Django Admin 커스터마이징으로 비개발자도 데이터 관리 가능
+- 📊 **1,200+ 개 시험결과 리포트 데이터 DB 파싱 자동화**
+- 🔧 **PostgreSQL JSONB 활용으로 검색 속도 최적화**
+- 💾 안정적인 서비스 운영을 위한 DB, STATIC, MEDIA 볼륨 부트 볼륨과 분리작업 및 마운트
+- 서버의 DDos 공격을 막기위한 아키텍처 설정
 
 **기술적 의사결정:**
-
+- 향후 효율적인 유지보수를 위한 모놀리식 -> 3계층 아키텍처 사용. 
 - 정형 DB만으로는 리포트마다 다른 50+ 필드를 관리 불가 → JSONB 하이브리드 스키마 도입
 - 비정형 데이터의 검색 성능 문제 → GIN 인덱스 + ORM 쿼리 최적화로 해결
 
------
-
-### 2️⃣ 실시간 랜덤 채팅 서비스
-
-> WebSocket 기반 익명 채팅 & Jenkins CI/CD 무중단 배포
-
-**Tech Stack:** `FastAPI` `WebSocket` `Jenkins` `AWS EC2` `Docker`
-
-**핵심 구현 내용:**
-
-- 💬 **WebSocket 양방향 통신**으로 실시간 메시지 전송 (지연 50ms 이하)
-- 🚀 **Jenkins 파이프라인 구축**
-  - GitHub Push → 자동 빌드 → Docker 이미지 생성 → EC2 배포
-  - 배포 시간 15분 → 3분으로 단축
-- 📈 **3개월간 무장애 운영** (MAU 500+)
-
-**기술적 의사결정:**
-
-- Django Channels 대신 FastAPI 선택 → 비동기 I/O 효율성 (동시접속자 2배↑)
-- Blue-Green 배포 전략으로 서비스 중단 시간 0초 달성
-
------
-
-### 3️⃣ C언어 포켓몬 게임
-
-> 메모리 관리 훈련을 위한 자료구조 구현 프로젝트
-
-**Tech Stack:** `C` `Linked List` `Dynamic Memory Management`
-
-**학습 목표:**
-
-- ⚙️ Pwnable(System Hacking) 학습 기초 다지기
-- 🧠 **메모리 누수 없는 코드 작성** (Valgrind로 검증)
-- 📚 포인터/구조체/동적 할당 직접 제어
-
-**구현 내용:**
-
-- 연결 리스트 기반 포켓몬 인벤토리 시스템
-- malloc/free 수동 관리로 메모리 최적화
-- 스택/힙 메모리 흐름 이해 → 웹 서비스 성능 튜닝 시 활용
-
------
 
 ## 🛠 Tech Stack
 
