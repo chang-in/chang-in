@@ -25,7 +25,12 @@
 
 **3-Tier Architecture**(3계층 아키텍처), 깃허브 action을 활용한 **CI/CD**
 
-**Tech Stack:** **`Django`** **`Next.js`** **`PostgreSQL`** **`Docker Compose`** **`Nginx`**
+**Tech Stack:**
+<img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
+<img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
+<img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=Nginx&logoColor=white"/>
 
 **핵심 구현 내용:**
 - 1,200+ 개 시험결과 리포트 데이터 DB 파싱 자동화
