@@ -9,7 +9,8 @@
 - **LinkedIn:** [linkedin.com/in/changin](https://www.linkedin.com/in/changin)
 - **Notes:** [qwerty12.notion.site](https://qwerty12.notion.site)
 
-<img style="width:40px; height:40px; pointer-events: none;" src="https://emcontent.zobj.net/source/animated-noto-color-emoji/427/sparkles_2728.gif"/> ## 나의 장점들
+<img style="width:40px; height:40px; pointer-events: none;" src="https://emcontent.zobj.net/source/animated-noto-color-emoji/427/sparkles_2728.gif"/> 
+## 나의 장점들
 
 <img style="width:20px; height:20px; pointer-events: none;" src="https://em-content.zobj.net/source/microsoft-teams/400/military-helmet_1fa96.png"/>**군 복무 중에도 멈추지 않는 실행력**: 제한된 환경과 시간 속에서도 아이디어를 실제 서비스로 구현하여 출시하였습니다. 단순히 개발에 그치지 않고 실사용자가 이용하는 제품을 안정적으로 운영하고 있습니다.
 <img style="width:20px; height:20px; pointer-events: none;" src="https://em-content.zobj.net/source/microsoft-teams/400/microscope_1f52c.png"/>**기술의 블랙박스를 파고드는 집요함**: 도구가 제공하는 기능을 넘어 내부 동작 원리를 파악합니다. Cloudflare 도입 시 Origin IP 노출 방지를 위한 인프라 구조를 직접 설계하여 외부 공격으로부터 서비스를 보호한 경험이 있습니다.
