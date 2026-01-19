@@ -23,7 +23,7 @@
 
 > **[🔗 와이즈픽(wise.pick)](https://www.wise-pick.co.kr)** (25.12 ~)
 
-**3-Tier Architecture**(3계층 아키텍처), 깃허브 action을 활용한 **CI/CD**
+**3-Tier Architecture**(3계층 아키텍처), 깃허브 actions을 활용한 **CI/CD**
 
 **Tech Stack:**
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/>
