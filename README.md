@@ -1,4 +1,4 @@
-<img width="256" height="256" alt="image" src="https://github.com/user-attachments/assets/c382aede-55c8-429b-acd0-25ea42fdda06" /># 안녕하세요 개발자 오창인 입니다.
+# 안녕하세요 개발자 오창인 입니다.
 
 **인공지능**를 전공하였고, 현재 군 복무중 개발한 서비스를 운영 중입니다.
 
