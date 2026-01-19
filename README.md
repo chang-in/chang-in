@@ -79,8 +79,6 @@ Pwnable 학습으로 메모리 취약점을 이해하고, 공격자 관점에서
 
 <div align="center">
 
-**“메모리부터 배포까지, 전체 스택을 이해하는 백엔드 엔지니어”**
-
 [![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyour-username&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
 
 </div>
