@@ -10,7 +10,7 @@
 - **Notes:** [qwerty12.notion.site](https://qwerty12.notion.site)
 
 ## 🛠 나의 장점들
-- <img src="https://em-content.zobj.net/source/animated-noto-color-emoji/427/sparkles_2728.gif" style="width:20px; height:20px; pointer-events: none;">**군 복무 중에도 멈추지 않는 실행력**: 제한된 환경과 시간 속에서도 아이디어를 실제 서비스로 구현하여 출시하였습니다. 단순히 개발에 그치지 않고 실사용자가 이용하는 제품을 안정적으로 운영하고 있습니다.
+<img style="width:20px; height:20px; pointer-events: none;" src="https://em-content.zobj.net/source/animated-noto-color-emoji/427/sparkles_2728.gif"/>**군 복무 중에도 멈추지 않는 실행력**: 제한된 환경과 시간 속에서도 아이디어를 실제 서비스로 구현하여 출시하였습니다. 단순히 개발에 그치지 않고 실사용자가 이용하는 제품을 안정적으로 운영하고 있습니다.
 - **기술의 블랙박스를 파고드는 집요함**: 도구가 제공하는 기능을 넘어 내부 동작 원리를 파악합니다. Cloudflare 도입 시 Origin IP 노출 방지를 위한 인프라 구조를 직접 설계하여 외부 공격으로부터 서비스를 보호한 경험이 있습니다.
 - **비즈니스 가치를 창출하는 개발**: 기술은 수익화와 사용자 도달을 위한 도구임을 이해합니다. 데이터 파싱 자동화부터 비용적인 부분에서 효율적인 클라우드 설계까지, '지속 가능한 서비스'를 만드는 전 과정을 주도합니다.
 - **데이터 중심 성능 최적화**: 1,200개 이상의 리포트 데이터를 다루며 PostgreSQL의 JSONB와 GIN 인덱스를 활용해 비정형 데이터 검색 성능을 극대화한 경험이 있습니다.
