@@ -23,7 +23,7 @@
 
 **3-Tier Architecture**(3계층 아키텍처), 지속적 통합, 배포 자동화 구현.
 
-**Tech Stack:** `Django` `Next.js` `PostgreSQL` `Docker Compose` `Nginx`
+**Tech Stack:** **`Django`** **`Next.js`** **`PostgreSQL`** **`Docker Compose`** **`Nginx`**
 
 **핵심 구현 내용:**
 - 1,200+ 개 시험결과 리포트 데이터 DB 파싱 자동화
