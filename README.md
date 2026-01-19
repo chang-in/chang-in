@@ -23,6 +23,7 @@
 > **[🔗 와이즈픽(wise.pick)](https://www.wise-pick.co.kr)**
 
 **3-Tier Architecture**(3계층 아키텍처), CI/CD
+
 **Tech Stack:** **`Django`** **`Next.js`** **`PostgreSQL`** **`Docker Compose`** **`Nginx`**
 
 **핵심 구현 내용:**
