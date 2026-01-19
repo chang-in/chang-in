@@ -1,6 +1,6 @@
-# 안녕하세요, 파이썬 백엔드 개발자 오창인 입니다.
+# 안녕하세요, 백엔드 개발자 오창인 입니다.
 
-**AI**를 전공하였고, 현재 군 복무중 개발한 서비스를 운영 중입니다.
+**AI**를 전공하였고, AI에 유리한 파이썬을 주력으로 합니다. 현재 군 복무중 개발한 서비스를 운영 중입니다.
 
 <a href="mailto:dhckddls12@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 <a href="https://kukurubbing.tistory.com" target="_blank"><img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=Tistory&logoColor=white"/></a>
