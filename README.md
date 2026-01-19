@@ -4,6 +4,13 @@
 > Django/FastAPI로 실제 사용자를 위한 프로덕션 서비스를 만들고,  
 > Jenkins CI/CD로 배포 프로세스를 자동화합니다.
 
+## 📫 Contact
+
+- **Email:** dhckddls12@gmail.com
+- **Blog:** [kukurubbing.tistory.com](https://kukurubbing.tistory.com)
+- **LinkedIn:** [linkedin.com/in/changin](https://www.linkedin.com/in/changin)
+- **Notes:** [qwerty12.notion.site](https://qwerty12.notion.site)
+
 <a href="https://www.wise-pick.co.kr" target="_blank"><img src="https://img.shields.io/badge/🌐_Live_Service-와이즈픽-4A90E2?style=for-the-badge"/></a>
 <a href="https://kukurubbing.tistory.com/" target="_blank"><img src="https://img.shields.io/badge/Blog-EB531F?style=for-the-badge&logo=Tistory&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/chvn9in/" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
@@ -11,7 +18,7 @@
 
 -----
 
-## 🏆 Featured Projects
+## 🏆 진행한 프로젝트들
 
 ### 와이즈픽 - 합리적 소비 분석 플랫폼 - 개발 진행중...
 
@@ -33,52 +40,8 @@
 - 비정형 데이터의 검색 성능 문제 → GIN 인덱스 + ORM 쿼리 최적화로 해결
 
 
-## 🛠 Tech Stack
-
-**Backend Framework**  
-![Django](https://img.shields.io/badge/Django-092E20?style=flat&logo=django&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-
-**Database**  
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
-![JSONB](https://img.shields.io/badge/JSONB-Hybrid_Schema-orange?style=flat)
-
-**DevOps & Infrastructure**  
-![AWS](https://img.shields.io/badge/AWS_EC2-232F3E?style=flat&logo=amazonaws&logoColor=white)
-![Jenkins](https://img.shields.io/badge/Jenkins-D24939?style=flat&logo=jenkins&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat&logo=nginx&logoColor=white)
-
-**Language**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=flat&logo=c&logoColor=black)
-
------
-
-## 💡 Development Philosophy
-
-**1. Production-First Mindset**  
-코드는 배포되어야 가치가 있습니다. 실제 사용자를 위한 안정적인 서비스를 만듭니다.
-
-**2. Security Awareness**  
-Pwnable 학습으로 메모리 취약점을 이해하고, 공격자 관점에서 방어적으로 설계합니다.
-
-**3. Data-Driven Service**  
-비정형 공공데이터를 수집·가공하여 사용자에게 유의미한 가치로 전환합니다.
-
------
-
-## 📫 Contact
-
-- **Email:** dhckddls12@naver.com
-- **Blog:** [kukurubbing.tistory.com](https://kukurubbing.tistory.com/)
-- **LinkedIn:** [linkedin.com/in/chvn9in](https://www.linkedin.com/in/chvn9in/)
-- **Portfolio:** [qwerty12.notion.site](https://qwerty12.notion.site)
-
------
-
-<div align="center">
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fyour-username&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false)](https://hits.seeyoufarm.com)
-
-</div>
+## 🛠 나의 장점들
+- 기술적 성취와 집요함 (Technical Ownership)
+- 효율성과 확장성에 대한 고민 (Efficiency & Scalability)
+- 성장을 즐기는 태도 (Growth Mindset)
+- 아이디어를 수익화 할 수 있는 개발자
