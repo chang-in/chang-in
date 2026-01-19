@@ -34,7 +34,7 @@
 <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white"/>
 
 **핵심 구현 내용들:**
-- 1,200+ 개 시험결과 리포트 데이터 DB 파싱 자동화
+- 1,200개 이상의 시험결과 리포트 데이터를 파이썬으로 DB 파싱 자동화
 - PostgreSQL JSONB 활용으로 검색 속도 최적화
 - 정적인 서비스 운영을 위한 DB, STATIC, MEDIA 볼륨 부트 볼륨과 분리작업 및 마운트
 - Cloudflare 프록시를 활용한 Origin Server IP 은폐 및 레이어 7(L7) 트래픽 필터링으로 안정적인 서비스 환경 구축
