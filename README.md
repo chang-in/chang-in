@@ -32,13 +32,13 @@
 <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/>
 <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=Nginx&logoColor=white"/>
 
-**핵심 구현 내용:**
+**핵심 구현 내용들:**
 - 1,200+ 개 시험결과 리포트 데이터 DB 파싱 자동화
 - PostgreSQL JSONB 활용으로 검색 속도 최적화
 - 정적인 서비스 운영을 위한 DB, STATIC, MEDIA 볼륨 부트 볼륨과 분리작업 및 마운트
 - Cloudflare 프록시를 활용한 Origin Server IP 은폐 및 레이어 7(L7) 트래픽 필터링으로 안정적인 서비스 환경 구축
 
-**실용적 의사결정 과정:**
+**실용적 의사결정 과정들:**
 - 향후 효율적인 유지보수를 위한 모놀리식 → 3계층 아키텍처 사용. 
 - 정형 DB만으로는 리포트마다 다른 50+ 필드를 관리 불가 → JSONB 하이브리드 스키마 도입
 - 비정형 데이터의 검색 성능 문제 → GIN 인덱스 + ORM 쿼리 최적화로 해결
