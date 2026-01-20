@@ -1,33 +1,37 @@
-# 안녕하세요, 백엔드 개발자 오창인 입니다.
+# 백엔드 개발자 오창인
 
-AI를 전공하였고, AI에 유리한 Python을 주력으로 사용합니다. 안전하고 안정적인 배포를 지향합니다.
-
-현재 군 복무중 개발한 서비스를 운영 중입니다.
+Python 기반 백엔드 개발자입니다.  
+AI를 전공했고, 현재 군 복무 중 실제 서비스를 운영하며 성능 최적화와 안정성 개선 경험을 쌓고 있습니다.
 
 <a href="mailto:dhckddls12@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 <a href="https://kukurubbing.tistory.com" target="_blank"><img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=Tistory&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/changin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/></a>
 <!-- <a href="https://qwerty12.notion.site" target="_blank"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a> -->
 
-## ✨나의 장점들
+---
 
-- **추진력**: 군 복무 중 제한된 환경과 시간 속에서도 아이디어를 실제 서비스로 구현하여 출시하였습니다. 단순히 개발에 그치지 않고 실사용자가 이용하는 제품을 안정적으로 운영하고 있습니다.
-- **집요함**: 도구가 제공하는 기능을 넘어 내부 동작 원리를 파악합니다. Cloudflare 도입 시 Origin IP 노출 방지를 위한 인프라 구조를 직접 설계하여 외부 공격으로부터 서비스를 보호한 경험이 있습니다.
-- **수익화 하는 개발**: 제가 가진 기술이 수익 창출을 위한 강력한 도구임을 이해합니다. 현실 세계의 아이디어를 논리적인 시스템으로 도출하여, 실제 수익으로 이어질 수 있는 최선의 방안을 고민하고 실행합니다.
-- **성능 최적화**: 1,200개 이상의 리포트 데이터를 다루며 PostgreSQL의 JSONB와 GIN 인덱스를 활용해 비정형 데이터 검색 성능을 극대화한 경험이 있습니다.
-- **운동선수 출신의 끈기와 성실함**: 축구선수 생활을 통해 얻은 강한 체력과 목표를 향한 집념을 개발에 투합합니다. 어려운 기술적 난관 앞에서도 끝까지 포기하지 않고 최선의 해결책을 찾아냅니다.
-<!-- 🤖 **AI 파인튜닝 및 서빙** : 비즈니스 요구사항에 맞춰 AI 모델을 파인튜닝하고, 이를 실제 서비스 환경에서 지연 없이 안정적으로 서빙할 수 있는 최적화된 백엔드 구조를 설계합니다.-->
+## ✨ 저의 장점들
 
-## 🏆 주요 프로젝트
+**실제 서비스 운영 경험**  
+wise.pick을 기획부터 배포까지 단독으로 진행하여 현재 운영 중입니다. 1,200개 이상의 제품 시험결과 데이터를 자동화 파싱하여 DB에 적재했고, PostgreSQL JSONB와 GIN 인덱스를 활용해 검색 응답시간을 2.3초에서 0.4초로 단축했습니다.
 
+**안정적인 서비스를 위한 인프라 설계**  
+Cloudflare 프록시를 통해 Origin Server IP를 은폐하고 L7 레벨 트래픽 필터링으로 외부 공격을 방어합니다. Docker 기반 컨테이너화와 GitHub Actions CI/CD로 안정적인 배포 환경을 구축했습니다.
 
-### 와이즈픽(개인프로젝트) - 합리적 소비 플랫폼 (개발 진행중... Private 저장소 입니다)
+**비즈니스를 이해하는 개발**  
+개발이 수익으로 이어지는 구조를 이해하고 있습니다. Oracle Cloud의 무료 고성능 자원(ARM 4core/24GB)을 전략적으로 활용하여 초기 인프라 비용 없이 서비스를 시작했고, 향후 AWS/GCP 마이그레이션을 고려한 이식 가능한 아키텍처로 설계했습니다.
 
-> **[🔗 와이즈픽(wise.pick)](https://wise-pick.co.kr)** (25.12 ~)
+**본질을 파고드는 학습 습관**  
+도구가 제공하는 기능만 사용하지 않고, 공식 문서와 내부 동작 원리를 이해하려 합니다. 축구선수 시절 기본기 훈련의 중요성을 체득했고, 이를 개발에서도 적용하여 문제의 근본 원인을 찾아 해결합니다.
 
-**3-Tier Architecture**(3계층 아키텍처), 깃허브 actions을 활용한 **CI/CD**
+---
 
-**Tech Stack:**
+## 🚀 Projects
+
+### 와이즈픽 - 합리적 소비 플랫폼
+> **[🔗 wise-pick.co.kr](https://wise-pick.co.kr)** (25.12 ~)
+
+**Tech Stack:**  
 <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/>
 <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/>
 <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
@@ -35,14 +39,8 @@ AI를 전공하였고, AI에 유리한 Python을 주력으로 사용합니다. �
 <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=Nginx&logoColor=white"/>
 <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white"/>
 
-**핵심 구현 내용들:**
-- 1,200개 이상의 시험결과 리포트 데이터를 파이썬으로 DB 파싱 자동화
-- PostgreSQL JSONB 활용으로 검색 속도 최적화
-- 안정적인 서비스 운영을 위한 DB, STATIC, MEDIA 볼륨 부트 볼륨과 분리작업 및 마운트
-- Cloudflare 프록시를 활용한 Origin Server IP 은폐 및 레이어 7(L7) 트래픽 필터링으로 안정적인 서비스 환경 구축
-
-**실용적 의사결정 과정들:**
-- 향후 **효율적인 유지보수**를 위한 모놀리식 → 3계층 아키텍처 사용. 
-- 정형 DB만으로는 리포트마다 다른 50+ 필드를 관리 불가 → **유기적인 구조**의 JSONB 하이브리드 스키마 도입
-- 비정형 데이터의 검색 성능 문제 → **GIN 인덱스 + ORM 쿼리 최적화**로 해결
-- 지속 가능한 서비스 운영을 위해, 무료이지만 고성능 자원 확보가 가능한 **Oracle Cloud 인프라를 전략적으로 채택**
+**주요 성과:**
+- 1,200개 리포트 데이터 파싱 자동화 (수작업 대비 97% 시간 단축)
+- JSONB + GIN 인덱스로 검색 성능 82% 개선
+- Cloudflare 프록시로 DDoS 방어 및 Origin IP 보호
+- GitHub Actions 기반 자동 배포 파이프라인 구축
