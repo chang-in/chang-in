@@ -1,6 +1,6 @@
 # 백엔드 개발자 오창인
 
-AI를 전공했고, Python 생태계에 익숙합니다. 현재 군 복무 중 실제 서비스를 운영하며 성능 최적화와 안정성 개선 경험을 쌓고 있습니다.
+AI를 전공했고, Python 생태계에 익숙합니다. 현재 군 복무 중 실제 서비스를 운영하며 유지보수, 성능 최적화와 안정성 개선 경험을 쌓고 있습니다.
 
 <a href="mailto:dhckddls12@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
 <a href="https://kukurubbing.tistory.com" target="_blank"><img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=Tistory&logoColor=white"/></a>
