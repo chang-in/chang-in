@@ -28,7 +28,8 @@ Cloudflare 프록시를 통해 Origin Server IP를 은폐하고 L7 레벨 트래
 ## 🚀 주요 프로젝트
 
 ### 와이즈픽 - 합리적 소비 플랫폼
-> **[🔗 wise-pick.co.kr](https://wise-pick.co.kr)** | **[📝 기술 블로그](https://kukurubbing.tistory.com)** (2025.12 ~)  
+> **[🔗 wise-pick.co.kr](https://wise-pick.co.kr)** | **[📝 기술 블로그](https://kukurubbing.tistory.com)** (2025.12 ~)
+
 > <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=Nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white"/>
 
 **기술적 구현:**
