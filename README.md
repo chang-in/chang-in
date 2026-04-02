@@ -1,7 +1,7 @@
 # 오창인
 
-> 군 복무 중에도 매일 코드를 쓰는 개발자입니다.
-> 실 서비스 2개를 혼자 기획·개발·운영하면서, 아이디어를 제품으로 만드는 전 과정을 경험하고 있습니다.
+> AI를 전공하는 대학생이며, 직접 만든 서비스를 운영하고 있습니다.
+> 기획부터 배포·운영까지 직접 하며, 다양한 도메인에 관심이 많습니다.
 
 <a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white"/></a>
 <a href="https://kukurubbing.tistory.com" target="_blank"><img src="https://img.shields.io/badge/Blog-000000?style=flat-square&logo=Tistory&logoColor=white"/></a>
@@ -29,8 +29,8 @@
 
 <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white"/>
 
-알고리즘 문제 풀려면 노트북 열어야 하잖아요.
-**WASM(Pyodide)으로 스마트폰에서 직접 코드를 채점**하는 앱을 만들고 있습니다. 비행기 모드에서도 됩니다.
+코딩테스트 준비, 노트북 없이도 할 수 있으면 좋겠다는 생각에서 시작했습니다.
+스마트폰에서 문제를 풀고 채점까지 가능한 앱을 만들고 있습니다.
 
 - 클라이언트 채점 → 서버 비용 Zero, 완전 오프라인 지원
 - 모바일 전용 코드 에디터 (스니펫 툴바 · 구문 강조)
@@ -41,15 +41,12 @@
 ## 기술 스택
 
 ```
-AI         Python · FastAPI
-Web        Next.js · React · Prisma · PostgreSQL · Tailwind CSS
-Mobile     React Native · Expo
-Infra      Docker · Cloudflare · OCI · GitHub Actions
+Python · FastAPI · PostgreSQL · TypeScript · Docker · AWS · Oracle Cloud · Linux · Nginx · Git · GitHub Actions · Cloudflare
 ```
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=chang-in&show_icons=true&theme=default&hide_border=true&hide_title=true" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chang-in&layout=compact&theme=default&hide_border=true&hide_title=true" height="150"/>
+  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/overview.svg" height="150"/>
+  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/languages.svg" height="150"/>
 </p>
