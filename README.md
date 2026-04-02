@@ -1,46 +1,55 @@
-# 백엔드 개발자 오창인
+# 오창인
 
-AI를 전공했고, Python 생태계에 익숙합니다. 
-현재 군 복무 중 실제 서비스를 운영하며 유지보수, 성능 최적화와 안정성 개선 경험을 쌓고 있습니다.
+> 군 복무 중에도 매일 코드를 쓰는 개발자입니다.
+> 실 서비스 2개를 혼자 기획·개발·운영하면서, 아이디어를 제품으로 만드는 전 과정을 경험하고 있습니다.
 
-<a href="mailto:dhckddls12@gmail.com"><img src="https://img.shields.io/badge/Gmail-EA4335?style=flat-square&logo=Gmail&logoColor=white"/></a>
-<a href="https://kukurubbing.tistory.com" target="_blank"><img src="https://img.shields.io/badge/Tistory-000000?style=flat-square&logo=Tistory&logoColor=white"/></a>
+<a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white"/></a>
+<a href="https://kukurubbing.tistory.com" target="_blank"><img src="https://img.shields.io/badge/Blog-000000?style=flat-square&logo=Tistory&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/changin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/></a>
-<!-- <a href="https://qwerty12.notion.site" target="_blank"><img src="https://img.shields.io/badge/Notion-000000?style=flat-square&logo=Notion&logoColor=white"/></a> -->
 
 ---
 
-## ✨ 저의 장점들
+## 만들고 있는 것들
 
-**실제 서비스 운영 경험**  
-와이즈픽(Wise Pick)을 기획부터 배포까지 단독으로 진행하여 현재 운영 중입니다. 1,200개 이상의 제품 시험결과 데이터를 자동화 파싱하여 DB에 적재했고, PostgreSQL JSONB와 GIN 인덱스를 활용해 검색 응답시간을 2.3초에서 0.4초로 단축했습니다.
+### [와이즈픽](https://wise-pick.co.kr) — 건기식, 성분으로 비교하자
 
-**안정적인 서비스를 위한 인프라 설계**  
-Cloudflare 프록시를 통해 Origin Server IP를 은폐하고 L7 레벨 트래픽 필터링으로 외부 공격을 방어합니다. Docker 기반 컨테이너화와 GitHub Actions CI/CD로 안정적인 배포 환경을 구축했습니다.
+<img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white"/>
 
-**비즈니스를 이해하는 개발**  
-개발이 수익으로 이어지는 구조를 이해하고 있습니다. Oracle Cloud의 무료 고성능 자원(ARM 4core/24GB)을 전략적으로 활용하여 초기 인프라 비용 없이 서비스를 시작했고, 향후 AWS나 GCP로 마이그레이션을 고려한 이식 가능한 아키텍처로 설계했습니다.
+오메가3 하나 사려고 검색하면 마케팅 문구만 가득합니다.
+식약처 공공데이터에서 **1,800개+ 제품**의 원료 데이터를 직접 가져와서, EPA·DHA 함량·순도·부형제를 숫자로 비교할 수 있는 플랫폼을 만들었습니다.
 
-**본질을 파고드는 학습 습관**  
-도구가 제공하는 기능만 사용하지 않고, 공식 문서와 내부 동작 원리를 이해하려 합니다. Cloudflare 도입 시 Origin IP 노출 방지를 위한 인프라 구조를 직접 설계했고, PostgreSQL JSONB의 내부 인덱싱 메커니즘을 학습하여 최적의 쿼리 전략을 수립했습니다.
+- 식약처 API → Prisma seed 파이프라인으로 데이터 자동 적재
+- Cloudflare CDN 엣지 캐시로 서버 응답 1초 → 50ms 단축
+- Lighthouse **Accessibility 100 · SEO 100** 달성
+- Oracle Cloud 무료 ARM 인스턴스 + Docker로 **인프라 비용 0원** 운영
+
+<br/>
+
+### fewfew — 지하철에서 백준 풀기
+
+<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=Firebase&logoColor=white"/>
+
+알고리즘 문제 풀려면 노트북 열어야 하잖아요.
+**WASM(Pyodide)으로 스마트폰에서 직접 코드를 채점**하는 앱을 만들고 있습니다. 비행기 모드에서도 됩니다.
+
+- 클라이언트 채점 → 서버 비용 Zero, 완전 오프라인 지원
+- 모바일 전용 코드 에디터 (스니펫 툴바 · 구문 강조)
+- Firebase 실시간 동기화 + 로컬 캐싱
 
 ---
 
-## 🚀 주요 프로젝트
+## 기술 스택
 
-### 와이즈픽 - 합리적 소비 플랫폼
-> **[🔗 wise-pick.co.kr](https://wise-pick.co.kr)** | **[📝 기술 블로그](https://kukurubbing.tistory.com/category/와이즈픽)** (2025.12 ~)
+```
+Web        Next.js · React · Prisma · PostgreSQL · Tailwind CSS
+Mobile     React Native · Expo · Firebase
+Infra      Docker · Cloudflare · OCI · GitHub Actions
+Language   TypeScript · Python · C
+```
 
-> <img src="https://img.shields.io/badge/Django-092E20?style=flat-square&logo=Django&logoColor=white"/> <img src="https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=Nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white"/>
+---
 
-**기술적 구현:**
-- PostgreSQL JSONB 하이브리드 스키마로 리포트별 가변 필드 50+ 개 유연하게 관리
-- GIN 인덱스 + ORM 쿼리 최적화로 검색 응답시간 2.3초 → 0.4초 단축
-- Python 자동화 스크립트로 1,200개 리포트 데이터 파싱 (수작업 대비 추정 80시간 → 2시간)
-- Cloudflare L7 필터링 + Nginx 리버스 프록시 2단 보안 체계 구축
-- GitHub Actions 기반 테스트 자동화 및 배포 파이프라인
-
-**인프라 설계:**
-- 3-Tier Architecture (Client - Server - Database 계층 분리)
-- Docker 볼륨 분리로 DB/Static/Media 데이터 영속성 확보
-- Oracle Cloud ARM 인스턴스 활용, Docker 기반 이식 가능 구조
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=chang-in&show_icons=true&theme=default&hide_border=true&hide_title=true" height="150"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=chang-in&layout=compact&theme=default&hide_border=true&hide_title=true" height="150"/>
+</p>
