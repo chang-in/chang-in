@@ -1,6 +1,7 @@
 # 오창인
 
-> AI를 전공하는 대학생이며, 직접 만든 서비스를 운영하고 있습니다.
+> AI를 전공하는 대학생이며, 파이썬을 주로 다룹니다.
+> 직접 만든 서비스를 운영하고 있습니다.
 > 기획부터 배포·운영까지 직접 하며, 다양한 도메인에 관심이 많습니다.
 
 <a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white"/></a>
