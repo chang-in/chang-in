@@ -15,7 +15,7 @@
 
 <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
 
-오메가3 하나 사려고 검색하면 마케팅 문구만 가득합니다.
+건강기능식품을 사려고 검색하면 마케팅때문에 적절한 제품을 선택하기 어려움을 느꼈습니다.
 식약처 공공데이터에서 **1,800개+ 제품**의 원료 데이터를 직접 가져와서, EPA·DHA 함량·순도·부형제같은 상세 정보를 객관적으로 비교할 수 있는 플랫폼을 만들었습니다.
 - 식약처 API → Prisma seed 파이프라인으로 데이터 자동 적재
 - Cloudflare CDN 엣지 캐시로 서버 응답 1초 → 50ms 단축
@@ -28,7 +28,7 @@
 
 <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
 
-코딩테스트 준비, 노트북 없이도 할 수 있으면 좋겠다는 생각에서 시작했습니다.
+코딩테스트 준비를 이동중에도 할 수 있으면 좋겠다는 생각에서 시작했습니다.
 스마트폰에서 문제를 풀고 채점까지 가능한 앱을 만들고 있습니다.
 
 - 클라이언트 채점 → 서버 비용 Zero, 완전 오프라인 지원
