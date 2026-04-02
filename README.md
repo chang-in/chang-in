@@ -51,6 +51,6 @@
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/overview.svg" height="180" width="500"/>
-  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/languages.svg" height="180" width="500"/>
+  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/overview.svg" height="180" width="400"/>
+  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/languages.svg" height="180" width="400"/>
 </p>
