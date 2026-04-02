@@ -27,24 +27,24 @@
 
 ### fewfew — 지하철에서 백준 풀기
 
-<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Firebase-DD2C00?style=flat-square&logo=Firebase&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white"/>
 
 알고리즘 문제 풀려면 노트북 열어야 하잖아요.
 **WASM(Pyodide)으로 스마트폰에서 직접 코드를 채점**하는 앱을 만들고 있습니다. 비행기 모드에서도 됩니다.
 
 - 클라이언트 채점 → 서버 비용 Zero, 완전 오프라인 지원
 - 모바일 전용 코드 에디터 (스니펫 툴바 · 구문 강조)
-- Firebase 실시간 동기화 + 로컬 캐싱
+- Next.js API + Prisma + PostgreSQL 백엔드, OCI Docker 배포
 
 ---
 
 ## 기술 스택
 
 ```
+AI         Python · FastAPI
 Web        Next.js · React · Prisma · PostgreSQL · Tailwind CSS
-Mobile     React Native · Expo · Firebase
+Mobile     React Native · Expo
 Infra      Docker · Cloudflare · OCI · GitHub Actions
-Language   TypeScript · Python · C
 ```
 
 ---
