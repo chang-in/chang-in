@@ -16,7 +16,7 @@
 <img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/> <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=flat-square&logo=oracle&logoColor=white"/>
 
 건강기능식품 하나 사려고 검색하면 마케팅 문구만 가득합니다.
-식약처 공공데이터에서 **1,800개 이상 제품**의 원료 데이터를 직접 가져와서, EPA·DHA 함량·순도·부형제를 숫자로 비교할 수 있는 플랫폼을 만들었습니다.
+식약처 공공데이터에서 **1,800개 이상 제품**의 원료 데이터를 직접 가져와서, EPA·DHA 함량·순도·부형제같은 상세 정보를 객관적으로 비교할 수 있는 플랫폼을 만들었습니다.
 
 - 식약처 API → Prisma seed 파이프라인으로 데이터 자동 적재
 - Cloudflare CDN 엣지 캐시로 서버 응답 1초 → 50ms 단축
