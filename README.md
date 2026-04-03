@@ -51,5 +51,5 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/overview.svg" height="220" width="400"/>
-  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/languages.svg" height="220" width="400"/>
+  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/languages.svg" height="240" width="400"/>
 </p>
