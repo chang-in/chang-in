@@ -28,13 +28,14 @@
 ### fewfew — 지하철에서 백준 풀기 (1인 개발)
 ### [fewfew 사전등록하기](https://fewfew.app)
 
-<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
+<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=Hono&logoColor=white"/> <img src="https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=Drizzle&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
 
 코딩테스트 준비를 이동중에도 할 수 있으면 좋겠다는 생각에서 시작했습니다.
 스마트폰에서 문제를 풀고 채점까지 가능한 앱을 만들고 있습니다.
 
 - 클라이언트 채점 → 서버 비용 Zero, 완전 오프라인 지원
 - 모바일 전용 코드 에디터 (스니펫 툴바 · 구문 강조)
+- Next.js + Prisma → Hono + Drizzle 전환으로 Docker 이미지 5배, 메모리 7배 경량화
 
 ---
 
