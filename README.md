@@ -1,8 +1,6 @@
 # 오창인
 
-> AI를 전공하는 대학생이며, 파이썬을 주로 다룹니다.
-> 기획부터 배포·운영까지 직접 하며, 다양한 도메인에 관심이 많습니다.
-> 직접 만든 서비스를 운영하고 있습니다.
+모바일·웹 서비스를 만들고 직접 운영합니다.
 
 <a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white"/></a>
 <a href="https://kukurubbing.tistory.com" target="_blank"><img src="https://img.shields.io/badge/Blog-000000?style=flat-square&logo=Tistory&logoColor=white"/></a>
@@ -10,58 +8,43 @@
 
 ---
 
-## 서비스중인 것들
+## 만든 것
 
-### [와이즈픽](https://wise-pick.co.kr) — 건기식, 성분으로 비교하자 (1인 개발)
+### [fewfew](https://fewfew.app) — 모바일에서 5개 언어 코드 실행·채점
+`React Native` `Hono` `Drizzle` · App Store 출시, Android 준비 중
 
-<img src="https://img.shields.io/badge/Next.js_16-000?style=flat-square&logo=Next.js&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=Prisma&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
+iOS의 코드 서명·실행 정책 때문에 런타임 바이너리를 서버에서 내려받아 실행하는 방식은 쓸 수 없었습니다. Python·JavaScript·Java·C·C++ 런타임을 앱에 포함해 실행과 채점을 기기 안에서 처리했습니다. 채점 서버가 필요 없어 오프라인에서도 코드를 컴파일하고 채점할 수 있습니다.
 
-건강기능식품을 사려고 검색하면 마케팅때문에 적절한 제품을 선택하기 어려움을 느꼈습니다.
-식약처 공공데이터에서 **1,800개 이상의 제품**의 원료 데이터를 직접 가져와서, EPA·DHA 함량·순도·부형제같은 상세 정보를 객관적으로 비교할 수 있는 플랫폼을 만들었습니다.
-- 식약처 API → Prisma seed 파이프라인으로 데이터 자동 적재
-- Cloudflare CDN 엣지 캐시로 서버 응답 1초 → 50ms 단축
-- Lighthouse **Accessibility 100 · SEO 100** 달성
-- **인프라 비용 0원** 운영
+JavaScript 런타임은 QuickJS를 골랐습니다. 빌드 크기와 JIT 없이 실행 가능한지를 기준으로 Hermes·V8과 비교했고, Hermes는 앱 런타임과 사용자 코드의 실행 환경 분리가 어려워, V8은 빌드 크기 증가가 커서 제외했습니다.
 
-<br/>
+API 서버는 Next.js + Prisma 조합이 무거워 더 가벼운 Hono + Drizzle로 옮겼습니다. 전환 전후 기준 Docker 이미지 5배, 메모리 7배 줄었습니다.
 
-### [fewfew](https://fewfew.app) — 지하철에서 백준 풀기 (1인 개발)
+### [와이즈픽](https://wise-pick.co.kr) — 건강기능식품 원료·함량 비교
+`Next.js` `PostgreSQL` `Prisma` · 1인 개발·운영
 
-App Store 출시. Android 준비 중.
+제품군마다 비교 기준이 다릅니다(오메가3는 EPA·DHA 함량, 유산균은 균주·CFU). 고정 컬럼 방식은 제품군이 늘 때마다 스키마를 바꿔야 해서 제외하고, 비교 속성을 EAV 구조로 저장했습니다. 조회 복잡도는 늘지만 제품군이 추가돼도 같은 비교 파이프라인에서 처리할 수 있는 쪽을 택했습니다.
 
-<img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=Hono&logoColor=white"/> <img src="https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=Drizzle&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
+식약처 공공데이터에서 1,800여 개 제품의 원료 데이터를 적재했습니다. Cloudflare 캐시 적용 전후 기준으로 주요 조회 응답이 약 1초에서 50ms로 줄었습니다. OCI Always Free 티어에서 운영해 서버 비용은 들지 않습니다(도메인 비용 제외).
 
-코딩테스트 준비를 이동중에도 할 수 있으면 좋겠다는 생각에서 시작했습니다.
-스마트폰에서 문제를 풀고 채점까지 가능한 앱을 만들고 있습니다.
+### [web-chat-downloader](https://github.com/chang-in/web-chat-downloader) — 웹 AI 대화를 로컬로 백업
+`TypeScript` `Chrome Extension` · 공개 저장소
 
-- 클라이언트 채점 → 서버 비용 Zero, 완전 오프라인 지원
-- 모바일 전용 코드 에디터 (스니펫 툴바 · 구문 강조)
-- Next.js + Prisma → Hono + Drizzle 전환으로 Docker 이미지 5배, 메모리 7배 경량화
+Claude·ChatGPT·Gemini의 웹 대화를 로컬 파일로 백업하는 Chrome 확장입니다. 동기화가 조용히 실패하는 경로를 찾아 고치는 데 대부분의 작업이 들어갔습니다.
+
+- 마지막 백업 이후의 대화만 가져오는 증분 동기화
+- 요청 제한에 걸리면 대기했다가 이어받기
+- 인덱스를 임시 파일에 쓴 뒤 교체해 중간 실패로 인한 손상 방지
+- 짧은 페이지를 목록 끝으로 오해해 대화를 놓치던 문제, 목록 10페이지 상한, 탭이 멈추면 동기화가 매달리던 문제 수정
 
 ---
 
-## 오픈소스 기여
+## 오픈소스 PR
 
-- [expo/expo#44793](https://github.com/expo/expo/pull/44793) — `expo-file-system` package exports에 `./next` 서브패스 추가
+모두 Open 상태입니다.
+
+- [expo/expo#44793](https://github.com/expo/expo/pull/44793) — `expo-file-system`의 `./next` 서브패스 export 추가
 - [stablyai/orca#9160](https://github.com/stablyai/orca/pull/9160) — 폴더 피커용 프로젝트 기본 디렉터리 설정
 - [stablyai/orca#8794](https://github.com/stablyai/orca/pull/8794) — 채팅 임포트 스토리지 · 네이티브 메시징 호스트
 - [stablyai/orca#8744](https://github.com/stablyai/orca/pull/8744) — ChatGPT/Claude/Gemini 웹 대화 임포트
 
----
-
-## 기술 스택
-
-**Backend**
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=Python&logoColor=white"/> <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=FastAPI&logoColor=white"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=PostgreSQL&logoColor=white"/>
-
-**Infra**
-
-<img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=Docker&logoColor=white"/> <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white"/> <img src="https://img.shields.io/badge/Oracle%20Cloud-F80000?style=for-the-badge&logo=oracle&logoColor=white"/> <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=black"/> <img src="https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=Nginx&logoColor=white"/> <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white"/> <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
-
----
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/overview.svg" height="220"/>
-  <img src="https://raw.githubusercontent.com/chang-in/github-stats-transparent/output/generated/languages.svg" height="220"/>
-</p>
+`orca#8794`, `orca#8744`는 직접 만든 확장(web-chat-downloader)의 기능을 upstream으로 옮긴 것입니다.
