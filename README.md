@@ -25,8 +25,9 @@
 
 <br/>
 
-### fewfew — 지하철에서 백준 풀기 (1인 개발)
-### [fewfew 사전등록하기](https://fewfew.app)
+### [fewfew](https://fewfew.app) — 지하철에서 백준 풀기 (1인 개발)
+
+App Store 출시. Android 준비 중.
 
 <img src="https://img.shields.io/badge/React_Native-61DAFB?style=flat-square&logo=React&logoColor=black"/> <img src="https://img.shields.io/badge/Expo-000020?style=flat-square&logo=Expo&logoColor=white"/> <img src="https://img.shields.io/badge/Hono-E36002?style=flat-square&logo=Hono&logoColor=white"/> <img src="https://img.shields.io/badge/Drizzle-C5F74F?style=flat-square&logo=Drizzle&logoColor=black"/> <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=TypeScript&logoColor=white"/> <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=PostgreSQL&logoColor=white"/>
 
@@ -36,6 +37,15 @@
 - 클라이언트 채점 → 서버 비용 Zero, 완전 오프라인 지원
 - 모바일 전용 코드 에디터 (스니펫 툴바 · 구문 강조)
 - Next.js + Prisma → Hono + Drizzle 전환으로 Docker 이미지 5배, 메모리 7배 경량화
+
+---
+
+## 오픈소스 기여
+
+- [expo/expo#44793](https://github.com/expo/expo/pull/44793) — `expo-file-system` package exports에 `./next` 서브패스 추가
+- [stablyai/orca#9160](https://github.com/stablyai/orca/pull/9160) — 폴더 피커용 프로젝트 기본 디렉터리 설정
+- [stablyai/orca#8794](https://github.com/stablyai/orca/pull/8794) — 채팅 임포트 스토리지 · 네이티브 메시징 호스트
+- [stablyai/orca#8744](https://github.com/stablyai/orca/pull/8744) — ChatGPT/Claude/Gemini 웹 대화 임포트
 
 ---
 
