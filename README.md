@@ -1,28 +1,26 @@
-# 오창인
-
-모바일·웹 서비스를 만들고 직접 운영합니다.
+# 오창잉
 
 <a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white"/></a>
 <a href="https://www.linkedin.com/in/changin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white"/></a>
 
 ---
 
-## 만든 것
+## 만든 것들
 
 ### [fewfew](https://fewfew.app) — 폰 안에서 C++까지 컴파일·채점
 `React Native` `Hono` `Drizzle` · 1인 개발 · App Store 출시, Android 준비 중
 
-코드를 서버로 보내지 않습니다. 5개 언어 런타임을 앱에 넣어 네트워크 없이 동작합니다.
+코드를 서버로 보내지 않고 5개 언어 런타임을 앱에 넣어 네트워크 없이 동작하는 앱을 제작했습니다
 
 ### [와이즈픽](https://wise-pick.co.kr) — 건강기능식품 원료·함량 비교
 `Next.js` `PostgreSQL` `Prisma` · 1인 개발·운영
 
-식약처 공공데이터 1,800여 개 제품을 적재했습니다. 제품군마다 비교 기준이 달라 EAV 구조로 설계했습니다.
+식약처 공공데이터 1,800여 개 제품을 적재하여 제품군마다 비교 기준이 달라 EAV 구조로 설계했습니다.
 
 ### [web-chat-downloader](https://github.com/chang-in/web-chat-downloader) — 웹 AI 대화를 로컬로 백업
 `TypeScript` `Chrome Extension` · 공개 저장소
 
-Claude·ChatGPT·Gemini 대화를 로컬 파일로 내려받는 Chrome 확장입니다. 동기화가 조용히 실패하던 경로를 찾아 고치는 데 대부분의 작업이 들어갔습니다.
+Claude·ChatGPT·Gemini 대화를 로컬 파일로 내려받는 Chrome 확장프로그램 오픈소스 입니다.
 
 ---
 
@@ -33,4 +31,4 @@ Claude·ChatGPT·Gemini 대화를 로컬 파일로 내려받는 Chrome 확장입
 - [stablyai/orca#8794](https://github.com/stablyai/orca/pull/8794) — 채팅 임포트 스토리지 · 네이티브 메시징 호스트
 - [stablyai/orca#8744](https://github.com/stablyai/orca/pull/8744) — ChatGPT/Claude/Gemini 웹 대화 임포트
 
-`orca#8794`, `orca#8744`는 직접 만든 확장(web-chat-downloader)의 기능을 upstream으로 옮긴 것입니다.
+`orca#8794`, `orca#8744`는 직접 만든 확장(web-chat-downloader)의 기능을 upstream으로 옮겼습니다.
