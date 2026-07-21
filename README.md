@@ -10,7 +10,7 @@
 ## 만든 것
 
 ### [fewfew](https://fewfew.app) — 모바일에서 5개 언어 코드 실행·채점
-`React Native` `Hono` `Drizzle` · App Store 출시, Android 준비 중
+`React Native` `Hono` `Drizzle` · App Store 출시, Android 준비 중 · 1인 개발·운영
 
 iOS의 코드 서명·실행 정책 때문에 런타임 바이너리를 서버에서 내려받아 실행하는 방식은 쓸 수 없었습니다. Python·JavaScript·Java·C·C++ 런타임을 앱에 포함해 실행과 채점을 기기 안에서 처리했습니다. 채점 서버가 필요 없어 오프라인에서도 코드를 컴파일하고 채점할 수 있습니다.
 
