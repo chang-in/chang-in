@@ -8,7 +8,7 @@
 ## 만든 것들
 
 ### [fewfew](https://fewfew.app) — 폰 안에서 C++까지 컴파일·채점
-`React Native` `Hono` `Drizzle` · 1인 개발 · App Store 출시, Android 준비 중
+`React Native` `Hono` `Drizzle` · 1인 개발 · 운영 · App Store 출시, Android 준비 중
 
 코드를 서버로 보내지 않고 5개 언어 런타임을 앱에 넣어 네트워크 없이 동작하는 앱을 제작했습니다
 
