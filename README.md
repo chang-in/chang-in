@@ -24,9 +24,14 @@ Claude·ChatGPT·Gemini 대화를 로컬 파일로 내려받는 Chrome 확장프
 
 ---
 
-## 오픈소스 PR
+## 오픈소스 기여
 
-- [expo/expo#44793](https://github.com/expo/expo/pull/44793) — `expo-file-system`의 `./next` 서브패스 export 추가
+**머지됨**
+
+- [expo/expo#44793](https://github.com/expo/expo/pull/44793) — `expo-file-system`의 `./next` 서브패스 export 추가 · 2026.07 · [CHANGELOG 크레딧](https://github.com/expo/expo/blob/main/packages/expo-file-system/CHANGELOG.md)
+
+**리뷰 중**
+
 - [stablyai/orca#9160](https://github.com/stablyai/orca/pull/9160) — 폴더 피커용 프로젝트 기본 디렉터리 설정
 - [stablyai/orca#8794](https://github.com/stablyai/orca/pull/8794) — 채팅 임포트 스토리지 · 네이티브 메시징 호스트
 - [stablyai/orca#8744](https://github.com/stablyai/orca/pull/8744) — ChatGPT/Claude/Gemini 웹 대화 임포트
