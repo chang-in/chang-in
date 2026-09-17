@@ -5,7 +5,7 @@
 
 ---
 
-## About me
+## 만든 것
 
 ### [fewfew](https://fewfew.app) — 폰 안에서 C++까지 컴파일·채점
 `React Native` `Hono` `Drizzle` · 1인 개발 · 운영 · App Store 출시, Android 준비 중
@@ -25,6 +25,8 @@
 
 Claude·ChatGPT·Gemini 대화를 로컬 파일로 내려받는 Chrome 확장프로그램 오픈소스 입니다.
 
+이 확장의 임포트 기능을 stablyai/orca에 업스트림 제안했으나([#8744](https://github.com/stablyai/orca/pull/8744)) 메인테이너가 방향을 보류해 닫혔습니다.
+
 ---
 
 ## 오픈소스 기여
@@ -33,10 +35,8 @@ Claude·ChatGPT·Gemini 대화를 로컬 파일로 내려받는 Chrome 확장프
 
 - [expo/expo#44793](https://github.com/expo/expo/pull/44793) — `expo-file-system`의 `./next` 서브패스 export 추가 · 2026.07 · [CHANGELOG 크레딧](https://github.com/expo/expo/blob/main/packages/expo-file-system/CHANGELOG.md)
 
-**리뷰 중**
+**머지 대기**
 
-- [stablyai/orca#9160](https://github.com/stablyai/orca/pull/9160) — 폴더 피커용 프로젝트 기본 디렉터리 설정
-- [stablyai/orca#8794](https://github.com/stablyai/orca/pull/8794) — 채팅 임포트 스토리지 · 네이티브 메시징 호스트
-- [stablyai/orca#8744](https://github.com/stablyai/orca/pull/8744) — ChatGPT/Claude/Gemini 웹 대화 임포트
-
-`orca#8794`, `orca#8744`는 직접 만든 확장(web-chat-downloader)의 기능을 upstream으로 옮겼습니다.
+- [thedotmack/claude-mem#3422](https://github.com/thedotmack/claude-mem/pull/3422) — Chroma 임베딩 함수를 설정으로 노출. 기본값이 영어 전용 모델이라 한국어 검색 품질이 떨어지는 문제를 실제 DB로 측정해 고침 (R@1 12% → 34.5%). 메인테이너가 단독 머지 대상으로 분류
+- [chroma-core/chroma-mcp#71](https://github.com/chroma-core/chroma-mcp/pull/71) — 위 PR의 짝. chroma-mcp에 다국어 임베딩 함수 추가
+- [stablyai/orca#9160](https://github.com/stablyai/orca/pull/9160) — 폴더 피커용 프로젝트 기본 디렉터리 설정. 메인테이너가 직접 리베이스·확장해 이어가는 중
