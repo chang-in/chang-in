@@ -19,8 +19,6 @@
 ### [web-chat-downloader](https://github.com/chang-in/web-chat-downloader) — 웹 AI 대화를 로컬로 마이그레이션
 `TypeScript` `Chrome Extension` · 공개 저장소
 
----
-
 ## 🔥오픈소스 기여
 
 **머지됨**
