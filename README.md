@@ -7,7 +7,7 @@
 
 ---
 
-## 만든 것
+## 프로젝트
 
 ### [fewfew](https://fewfew.app) — 서버 컴파일이 필요없는 모바일 자료구조﹒알고리즘 튜터앱.
 `React Native` `Hono` `Drizzle` · 1인 개발·운영. App Store 출시, Android 준비 중
