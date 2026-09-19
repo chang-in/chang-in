@@ -1,16 +1,16 @@
-# ✨About Me
+# ✨ About Me
 
-AI를 전공합니다. PRD·ADR·TDD 같은 개발 방법론을 AI 코딩 에이전트가 따르게 만든 하네스로, 혼자서도 팀처럼 만들고 운영합니다. 그렇게 fewfew·리뷰캐스트·와이즈픽을 만들었고, 쓰다 막힌 도구는 고쳐서 업스트림에 올립니다.
+AI를 전공하며 웹·모바일 서비스를 직접 개발하고 운영합니다. AI 코딩 에이전트가 기획·설계·테스트 절차를 따르도록 개발 환경을 직접 구성해 활용합니다. 개발 중 발견한 오픈소스 문제는 직접 수정해 기여합니다.
 
 <a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white" alt="이메일 보내기"/></a>
 <a href="https://www.linkedin.com/in/changin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white" alt="LinkedIn 프로필"/></a>
 
-## 📚프로젝트
+## 📚 프로젝트
 
-### [fewfew](https://fewfew.app) — 서버 컴파일이 필요없는 모바일 자료구조·알고리즘 튜터앱
+### [fewfew](https://fewfew.app) — 서버 컴파일이 필요 없는 모바일 자료구조·알고리즘 튜터 앱
 `React Native` `Hono` `Drizzle` · 1인 개발·운영. App Store 출시, Android 준비 중
 
-### [리뷰캐스트](https://reviewcast.co.kr) — 우리동네 리뷰체험단 플랫폼
+### [리뷰캐스트](https://reviewcast.co.kr) — 우리 동네 리뷰 체험단 플랫폼
 `Next.js` `PostgreSQL` `Drizzle` · 1인 개발·운영
 
 ### [와이즈픽](https://wise-pick.co.kr) — 건강기능식품 원료·함량 비교 플랫폼
@@ -19,7 +19,7 @@ AI를 전공합니다. PRD·ADR·TDD 같은 개발 방법론을 AI 코딩 에이
 ### [web-chat-downloader](https://github.com/chang-in/web-chat-downloader) — 웹 AI 대화를 로컬로 마이그레이션
 `TypeScript` `Chrome Extension` · 공개 저장소
 
-## 🔥오픈소스 기여
+## 🔥 오픈소스 기여
 
 **머지됨**
 
@@ -27,7 +27,7 @@ AI를 전공합니다. PRD·ADR·TDD 같은 개발 방법론을 AI 코딩 에이
 
 **검토 중**
 
-- [thedotmack/claude-mem#3422](https://github.com/thedotmack/claude-mem/pull/3422) — Chroma 임베딩 함수를 설정으로 노출. 기본값이 영어 전용 모델이라 한국어 검색이 약한 문제를 실제 DB의 한국어 코퍼스(후보 200건, 독립 표본 2회)로 측정해 고침 (R@1 12% → 34.5%). 메인테이너가 단독 머지 대상으로 분류
+- [thedotmack/claude-mem#3422](https://github.com/thedotmack/claude-mem/pull/3422) — 한국어 검색 개선을 위한 임베딩 모델 선택 설정 추가. 자체 실험에서 다국어 모델 적용 시 R@1 12% → 34.5%
 
 <details>
 <summary>그 밖의 PR (OPEN 2건 · CLOSE 2건)</summary>
