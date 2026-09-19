@@ -1,6 +1,6 @@
 # ✨About Me
 
-AI를 전공합니다. 소프트웨어 개발방법론을 적용한 하네스를 제작하고 이를 활용한 효율적이고 지속적으로 유지와 보수가 가능한 소프트웨어를 개발하고 있습니다.
+AI를 전공합니다. 소프트웨어 개발방법론을 적용한 하네스를 제작하고, 이를 활용한 효율적이고 지속적으로 유지와 보수가 가능한 소프트웨어를 개발하고 있습니다.
 
 <a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white" alt="이메일 보내기"/></a>
 <a href="https://www.linkedin.com/in/changin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white" alt="LinkedIn 프로필"/></a>
