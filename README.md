@@ -5,8 +5,6 @@
 <a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white" alt="이메일 보내기"/></a>
 <a href="https://www.linkedin.com/in/changin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white" alt="LinkedIn 프로필"/></a>
 
----
-
 ## 📚프로젝트
 
 ### [fewfew](https://fewfew.app) — 서버 컴파일이 필요없는 모바일 자료구조﹒알고리즘 튜터앱.
