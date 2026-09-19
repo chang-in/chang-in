@@ -30,14 +30,14 @@ AI를 전공합니다. 소프트웨어 개발방법론을 적용한 하네스를
 - [thedotmack/claude-mem#3422](https://github.com/thedotmack/claude-mem/pull/3422) — Chroma 임베딩 함수를 설정으로 노출. 기본값이 영어 전용 모델이라 한국어 검색이 약한 문제를 실제 DB의 한국어 코퍼스(후보 200건, 독립 표본 2회)로 측정해 고침 (R@1 12% → 34.5%). 메인테이너가 단독 머지 대상으로 분류
 
 <details>
-<summary>그 밖의 PR (열림 2건 · 닫힘 2건)</summary>
+<summary>그 밖의 PR (OPEN 2건 · CLOSE 2건)</summary>
 
-**열림**
+**OPEN**
 
 - [chroma-core/chroma-mcp#71](https://github.com/chroma-core/chroma-mcp/pull/71) — chroma-mcp에 `multilingual` 임베딩 함수 추가. 위 claude-mem 설정이 이 함수를 고를 수 있게 하는 한 쌍
 - [stablyai/orca#9160](https://github.com/stablyai/orca/pull/9160) — 폴더 피커용 프로젝트 기본 디렉터리 설정. 메인테이너가 직접 리베이스·확장해 이어가는 중
 
-**닫힘**
+**CLOSE**
 
 - [stablyai/orca#8477](https://github.com/stablyai/orca/pull/8477) — AI Vault에 Antigravity 세션 지원 추가 (+1,169/−411). 리뷰 두 차례를 반영하는 사이 메인테이너 구현(#8971)이 먼저 main에 들어가 직접 닫음
 - [stablyai/orca#8744](https://github.com/stablyai/orca/pull/8744) — web-chat-downloader의 웹 대화 임포트를 통째로 옮긴 umbrella PR. 메인테이너가 방향을 보류해 닫힘. 1/4로 쪼갠 [#8794](https://github.com/stablyai/orca/pull/8794)도 함께 멈춤
