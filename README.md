@@ -1,6 +1,6 @@
 # ✨ About Me
 
-AI를 전공하며 웹·모바일 서비스를 직접 개발하고 운영합니다. AI 코딩 에이전트가 기획·설계·테스트 절차를 따르도록 개발 환경을 직접 구성해 활용하고 있습니다.
+AI를 전공하며 웹·모바일 서비스를 직접 개발하고 운영합니다. AI 코딩 에이전트가 기획·설계·테스트 절차를 따르도록 개발 환경을 직접 구성해 활용하고 있습니다. 오픈소스 기여에 재미를 느끼는 중입니다.
 
 <a href="mailto:dhckddls12@naver.com"><img src="https://img.shields.io/badge/Email-03C75A?style=flat-square&logo=Naver&logoColor=white" alt="이메일 보내기"/></a>
 <a href="https://www.linkedin.com/in/changin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white" alt="LinkedIn 프로필"/></a>
