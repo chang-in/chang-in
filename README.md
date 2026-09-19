@@ -16,6 +16,8 @@ AI를 전공하며 웹·모바일 서비스를 직접 개발하고 운영합니�
 ### [와이즈픽](https://wise-pick.co.kr) — 건강기능식품 원료·함량 비교 플랫폼
 `Next.js` `PostgreSQL` `Prisma` · 1인 개발·운영
 
+식약처 공공데이터 1,800여 개 제품을 적재했습니다. 제품군마다 비교 기준이 달라 EAV 구조로 설계했습니다.
+
 ### [web-chat-downloader](https://github.com/chang-in/web-chat-downloader) — 웹 AI 대화를 로컬로 마이그레이션
 `TypeScript` `Chrome Extension` · 공개 저장소
 
