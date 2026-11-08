@@ -1,4 +1,5 @@
-# 오창인 · 웹·앱·AI 개발자
+# 오창인
+### 웹·앱·AI 개발자
 
 AI를 전공하며 웹·모바일 서비스를 기획해서 만들고 운영합니다. TypeScript(Next.js, React Native)와 Python(Django, FastAPI)을 주로 씁니다. 서울에 살고, 재택 계약직·프리랜서·외주 일을 찾고 있습니다.
 
