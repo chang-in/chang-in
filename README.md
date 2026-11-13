@@ -1,8 +1,7 @@
 # 오창인
-### 웹·앱·AI 개발자
+### Forward Deployed Engeineer | AX
 
-AI를 전공하며 웹·모바일 서비스를 기획해서 만들고 운영합니다. TypeScript(Next.js, React Native)와 Python(Django, FastAPI)을 주로 씁니다. 
-서울에 살고, 재택 계약직·프리랜서·외주 일을 찾고 있습니다.
+현장에 투입되어 일이 어떻게 돌아가는지 파악하고, 문제가 생긴 지점을 AI와 소프트웨어로 해결합니다.
 
 <a href="https://chang-in.notion.site/resume" target="_blank"><img src="https://img.shields.io/badge/이력서·포트폴리오-000000?style=flat-square&logo=Notion&logoColor=white" alt="이력서·포트폴리오"/></a>
 <a href="https://www.linkedin.com/in/changin" target="_blank"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=LinkedIn&logoColor=white" alt="LinkedIn 프로필"/></a>
