@@ -12,7 +12,7 @@
 
 ### [fewfew](https://fewfew.app) — 코딩테스트 학습 앱 · App Store 출시
 `React Native` `Expo` `Hono` `Drizzle`
-- 5개 언어 런타임을 앱에 내장해 기기 안에서 실행·채점
+- 5개 언어 런타임을 앱에 내장하여 기기 내 실행 및 채점
 - LLM 문제 생성: 같은 요청은 한 번만 처리하고 하루 호출 예산을 원자적으로 예약, 만든 문제는 검증한 뒤 노출
 
 ### [리뷰캐스트](https://reviewcast.co.kr) — 체험단 운영 플랫폼
@@ -24,11 +24,11 @@
 `Next.js` `PostgreSQL` `Prisma`
 - 식약처 공공데이터 1,800여 개 제품 수집·정제, CDN 캐시로 주요 조회 응답 약 1초 → 50ms
 
-> 위 세 서비스는 실제 사용자가 있어 코드는 비공개입니다. 설계와 구현 과정은 [포트폴리오](https://chang-in.notion.site/resume)에 정리했습니다.
+### 음향탐지 AIoT 경보시스템 - VespaGuard(말벌 탐지 및 앱 알림시스템)
+`PyTorch` `React Native` · 제주한라 AIoT 크리에이터 경진대회 1위
+- 30KB 저전력 모델, 소형 모듈안에 탑재 가능하며, 프로토타입 기준 탐지율 86%, F1점수 93.2(모델 정밀도, 재현율의 조화 평균)
 
-### VespaGuard — 말벌 음향 탐지·경보 · 학교 캡스톤(팀장)
-`PyTorch` `ONNX Runtime` `ESP32-S3` · 제주한라 AIoT 크리에이터 경진대회 1위
-- 다른 녹음 장치에서 탐지율 95%, 꿀벌 오경보 0건. ESP32-S3용 INT8 모델(30KB)
+> 위 세 서비스는 실제 사용자가 있어 코드는 비공개입니다. 설계와 구현 과정은 [포트폴리오](https://chang-in.notion.site/resume)에 정리했습니다.
 
 ### [web-chat-downloader](https://github.com/chang-in/web-chat-downloader) — 웹 AI 대화를 로컬로 가져오는 Chrome 확장
 `TypeScript` `Chrome Extension` · claude.ai·ChatGPT·Gemini 대화를 로컬 세션 파일로 옮겨 터미널에서 이어서 대화
